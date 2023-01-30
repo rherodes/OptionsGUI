@@ -10,7 +10,7 @@ public class OptionsGUI
 		JFrame frame = new JFrame("Options GUI");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		frame.getContentPane().add(new OptionGUIPanel());
+		frame.getContentPane().add(new OptionsGUIPanel());
 
 		frame.pack();
 		frame.setVisible(true);
